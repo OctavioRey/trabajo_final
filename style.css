@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  margin-top: 60px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-icon-menu {
+  float: left;
+}
+
+.navbar-icon-cart {
+  float: right;
+}
+
+.navbar div {
+  float: left;
+  text-align: center;
+  padding: 14px 10px 10px 10px;
+  border-bottom: 2px solid #eee;
+}
+
+#container {
+  font-family: "Quicksand", sans-serif;
+  font-size: 10pt;
+  margin: 0% 5% 0% 5%;
+}
+
+#my-account-title {
+  margin-bottom: 40px;
+}
+
+.button-account {
+  color: white;
+  background-color: white;
+  border: 0;
+  background-color: #acd9b2;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+#login-container {
+  margin-top: 40%;
+}
+
+#account-container {
+  margin-top: 10%;
+}
+
+#recovery-container {
+  margin-top: 20%;
+}
+
+.label-text {
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+#recovery-head {
+  font-weight: bold;
+  text-align: center;
+}
+
+#recovery-text {
+  text-align: center;
+  color: #c7c7c7;
+  font-size: 10pt;
+}
+
+#logo-recovery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+#logo-login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+#recovery-link {
+  color: #acd9b2;
+  text-align: center;
+}
+
+#button-log-in {
+  color: white;
+  background-color: white;
+  border: 0;
+  background-color: #acd9b2;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#login-back {
+  color: #acd9b2;
+}
+
+#button-login-back {
+  background-color: white;
+  border: 0;
+  width: 100%;
+}
+
+#button-submit {
+  color: white;
+  background-color: white;
+  border: 0;
+  background-color: #acd9b2;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#button-menu {
+  margin-top: 40px;
+  width: 100%;
+}
+
+#icon-menu {
+  align-self: left;
+}
+
+.icon-menu {
+  right: 50px;
+}
+
+.input-text {
+  border: none;
+  background-color: #f7f7f7;
+  color: #c7c7c7;
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 6px;
+}
+
+#error-text {
+  color: red;
+  font-size: 10pt;
+  text-align: center;
+  display: none;
+}
+
+.input-text:invalid {
+  border: 1px solid red;
+  background-color: #fff7f7;
+}
+
+#sign-up {
+  color: #acd9b2;
+  background-color: white;
+  border: 1px solid #acd9b2;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 10px;
+  width: 90%;
+}
+
+#recovery-button {
+  background-color: white;
+  border: 0;
+  width: 100%;
+}
+
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11pt;
+  padding: 6px 12px 6px 12px;
+  color: #c7c7c7;
+}
+
+.scrollmenu a:hover {
+  color: #acd9b2;
+  border: 1px solid #acd9b2;
+  border-radius: 8px;
+}
+
+.scrollmenu::-webkit-scrollbar {
+  display: none;
+}
+
+.bigger-text {
+  font-size: 11pt;
+}
+
+#filter {
+  border: none;
+  color: #c7c7c7;
+}
+
+#filter-container {
+  margin: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.product-cell {
+  width: 100%;
+  overflow: hidden;
+}
+
+.product-cell img:first-child {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product-cell table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-cell img:last-child {
+  float: right;
+  width: 40px;
+  filter: drop-shadow(0 0 0.75rem #ddd);
+}

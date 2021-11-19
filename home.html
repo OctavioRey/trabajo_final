@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div>
+        <img class="navbar-icon-menu" src="assets/icons/icon_menu.svg" />
+      </div>
+      <div>
+        <img class="navbar-icon-logo" src="assets/logos/logo_yard_sale.svg" />
+      </div>
+      <div>
+        <img
+          class="navbar-icon-cart"
+          src="assets/icons/icon_shopping_cart.svg"
+        />
+      </div>
+    
+</div>
+    <div id="container">
+      <input
+        class="input-text"
+        type="text"
+        id="search"
+        name="search"
+        placeholder="  &#xF002;  Search product"
+        style="font-family: Arial, FontAwesome"
+      />
+      <div class="scrollmenu">
+        <a href="#">All</a>
+        <a href="#">Clothes</a>
+        <a href="#">Electronics</a>
+        <a href="#">Furniture</a>
+        <a href="#">Toys</a>
+      </div>
+      <div id="filter-container">
+        <label class="label-text bigger-text" for="filter">Order:</label>
+        <select name="filter" id="filter">
+          <option value="mostRecent">Most recent</option>
+          <option value="cheaper">Cheaper</option>
+          <option value="bestValue">Best value</option>
+          <option value="mostLiked">Most liked</option>
+        </select>
+      </div>
+      <div class="product-grid">
+        <div class="product-cell">
+          <img src="images/round-shelf.jpg" alt="Round shelf" />
+          <table>
+            <tr>
+                <td><b>$ 120,00</b></td>
+                <td rowspan="2"><img src="assets/icons/bt_add_to_cart.svg" alt="Add to cart"></td>
+            </tr>
+            <tr>
+                <td>Round shelf</td>
+            </tr>
+          </table>          
+        </div>
+        <div class="product-cell">
+          <img src="images/refrigerator-retro.jfif" alt="Round shelf" />
+          <table>
+            <tr>
+                <td><b>$ 120,00</b></td>
+                <td rowspan="2"><img src="assets/icons/bt_added_to_cart.svg" alt="Add to cart"></td>
+            </tr>
+            <tr>
+                <td>Retro refrigerator</td>
+            </tr>
+          </table>          
+        </div>
+        <div class="product-cell">
+          <img src="images/round-shelf.jpg" alt="Round shelf" />
+          <table>
+            <tr>
+                <td><b>$ 120,00</b></td>
+                <td rowspan="2"><img src="assets/icons/bt_add_to_cart.svg" alt="Add to cart"></td>
+            </tr>
+            <tr>
+                <td>Round shelf</td>
+            </tr>
+          </table>          
+        </div>
+        <div class="product-cell">
+          <img src="images/refrigerator-retro.jfif" alt="Retro refrigerator" />
+          <table>
+            <tr>
+                <td><b>$ 120,00</b></td>
+                <td rowspan="2"><img src="assets/icons/bt_add_to_cart.svg" alt="Add to cart"></td>
+            </tr>
+            <tr>
+                <td>Retro refrigerator</td>
+            </tr>
+          </table>          
+        </div>
+        <div class="product-cell">
+          <img src="images/round-shelf.jpg" alt="Round shelf" />
+          <table>
+            <tr>
+                <td><b>$ 120,00</b></td>
+                <td rowspan="2"><img src="assets/icons/bt_add_to_cart.svg" alt="Add to cart"></td>
+            </tr>
+            <tr>
+                <td>Round shelf</td>
+            </tr>
+          </table>          
+        </div>
+        <div class="product-cell">
+          <img src="images/refrigerator-retro.jfif" alt="Round shelf" />
+          <table>
+            <tr>
+                <td><b>$ 120,00</b></td>
+                <td rowspan="2"><img src="assets/icons/bt_add_to_cart.svg" alt="Add to cart"></td>
+            </tr>
+            <tr>
+                <td>Retro refrigerator</td>
+            </tr>
+          </table>          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

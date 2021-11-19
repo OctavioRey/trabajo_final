@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="login-container">
+        <img src="/assets/logos/logo_yard_sale.svg" id="logo-login" />
+        <form>
+          <label class="label-text" for="email">Email address</label>
+          <input class="input-text" type="text" id="email" name="email" />
+          <label class="label-text" for="password">Password</label>
+          <input
+            class="input-text"
+            type="password"
+            id="password"
+            name="password"
+          />
+        </form>
+        <a href="home.html"
+        ><button id="button-log-in">Log in</button></a
+        >
+        <p id="error-text">Invalid user ID and password combination</p>
+        <a href ="passwordrecovery.html"><button id="recovery-button"><p id="recovery-link">Forgot my password</p></button></a>
+      </div>
+      <div class="footer-container">
+        <a href="signup.html"><button id="sign-up">Sign up</button></a>
+      </div>
+    </div>
+  </body>
+</html>
